@@ -117,7 +117,7 @@ def register():
             msg = 'You have successfully registered!'
             #send gmail
             gmail_user = 'naveenpandianp5@gmail.com'
-            gmail_app_password = 'vqnb putb pfgi ypzi'
+            gmail_app_password = ''
 
             sent_from = gmail_user
             sent_to = email
@@ -219,7 +219,7 @@ def update():
                 mysql.connection.commit()
                 #send gmail
                 gmail_user = 'naveenpandianp5@gmail.com'
-                gmail_app_password = 'vqnb putb pfgi ypzi'
+                gmail_app_password = ''
 
                 sent_from = gmail_user
                 sent_to = email
